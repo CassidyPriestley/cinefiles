@@ -1,6 +1,5 @@
 import { useFetch } from "../hooks/useFetch";
 import { FilmCard } from "../components/FilmCard";
-import { useEffect } from "react";
 import { useTitle } from "../hooks/useTitle";
 
 export const FilmList = ({ apiPath, title }) => {

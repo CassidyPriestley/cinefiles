@@ -24,7 +24,7 @@ export const FilmDetail = () => {
       console.log(json);
     }
     fetchMovie();
-  }, []);
+  }, [params.id]);
 
   // Page Title
   useTitle(`${film.title}`);
